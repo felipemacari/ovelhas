@@ -1,0 +1,100 @@
+body{
+    font-family: Arial;
+    background: #f2f2f2;
+    padding: 20px;
+}
+
+h1{
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+nav{
+    background: green;
+    text-align: center;
+    padding-top: 20px;
+}
+
+nav h1{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.menu{
+    width: 100%;
+    background: darkgreen;
+    padding: 15px 0;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    transition: 0.3s;
+    padding-bottom: 5px;
+}
+
+.menu a:hover{
+    border-bottom: 2px solid white;
+}
+
+table{
+    width: 100%;
+    background: white;
+    border-collapse: collapse;
+}
+
+table, th, td{
+    border: 1px solid #ccc;
+}
+
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    padding: 8px;
+    background: green;
+    color: white;
+    border-radius: 5px;
+}
+
+.excluir{
+    background: red;
+}
+
+form{
+    background: white;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    border-radius: 10px;
+
+    border: 2px solid #006400;
+
+    box-shadow:
+    0 0 10px #006400,
+    0 0 20px #004d00,
+    0 0 30px #003300;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button{
+    padding: 10px;
+    width: 100%;
+    background: green;
+    color: white;
+    border: none;
+    display: block;
+    margin: auto;
+}
